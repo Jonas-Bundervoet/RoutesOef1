@@ -14,6 +14,7 @@ namespace RoutesOef1.Controllers
         {
             return View();
         }
+
         public IActionResult ShowId(int id)
         {
             return Content($"You wanted id: {id}", "text/plain");
